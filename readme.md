@@ -4,7 +4,7 @@ A Web Application to Draw a Cartoon Face.
 - Demo: http://negarang.milad-ab.ir/face-app
 - Graphics Source: http://www.iconarchive.com/show/flat-animal-icons-by-martin-berube.html
 
-##Installation
+## Installation
 
 Via [Composer](https://getcomposer.org)
 ```
