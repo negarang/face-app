@@ -326,7 +326,7 @@ FaceAppApi.prototype.createImage = function (values, callback) {
     var fd = this;
     this.buildData(values);
     $.ajax({
-        url: "/image.php",
+        url: "./image.php",
         method: "POST",
         contentType: "application/json",
         data: fd.getStringData()
