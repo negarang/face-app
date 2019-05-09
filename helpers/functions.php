@@ -12,6 +12,7 @@
 
 use Negarang\FaceDesigner\Items\Background\Filled;
 use Negarang\FaceDesigner\Items\Background\Pattern;
+use Negarang\FaceDesigner\Items\Background\Theme;
 use Negarang\FaceDesigner\Items\Body;
 use Negarang\FaceDesigner\Items\Effect\Weather;
 use Negarang\FaceDesigner\Items\Head;
@@ -42,7 +43,7 @@ function faceAppConfig() {
     // Background.
     Filled::config(24);
     Pattern::config(0);
-    Pattern::config(0);
+    Theme::config(0);
     // Effect.
     Weather::config(0);
     // Head.
