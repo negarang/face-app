@@ -104,7 +104,8 @@ FaceAppApi.prototype.convertIndexes = function (data, dataType, prefix, reverse)
             index = convertedIndex;
         }
         // Value is an array.
-        if (typeof value === "object" && value.length) {
+        if ((typeof value === "object") && value.length
+            && (typeof value[0] === "object")) {
             var newValue = [];
             value.forEach(function (v, i) {
                 newValue[i] = fd.convertIndexes(v, dataType, accessKey);
