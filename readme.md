@@ -2,7 +2,8 @@
 A Web Application to Draw a Cartoon Face.
 
 - Demo: http://negarang.milad-ab.ir/face-app
-- Graphics Source: http://www.iconarchive.com/show/flat-animal-icons-by-martin-berube.html
+- Graphics Source: [IconArchive](http://www.iconarchive.com/show/flat-animal-icons-by-martin-berube.html) ([License](http://www.iconarchive.com/icons/martin-berube/flat-animal/free-images-license.txt))
+- Launched Projects: [MangaFace](https://github.com/Milad-Ab/MangaFace)
 
 ## Installation
 
